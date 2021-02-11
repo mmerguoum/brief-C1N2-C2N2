@@ -22,8 +22,7 @@
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    height: 900px;
-    margin: -275px 0 0 67px; }
+    height: 900px; }
     .cont-2 .profils__one {
       padding: 28px;
       align-content: center;
@@ -38,6 +37,22 @@
         font-size: 0.4em; }
       .cont-2 .profils__titles--clash {
         font-size: 0.9em; }
+    .cont-2 .profils__imgcontainer {
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      position: relative; }
+    .cont-2 .profils__image {
+      width: 60px;
+      height: 60px;
+      border-radius: 50px 50px;
+      bottom: 267px;
+      background-color: rgba(119, 119, 119, 0.2); }
+      .cont-2 .profils__image:before {
+        content: "60 x 60"; }
 
 body .cont-1 .BOX .BOX2 .paragraphe, body .cont-1 .BOX .BOX2 .par1, body .cont-1 .BOX .BOX2 .par2 {
   margin-top: 8%;
