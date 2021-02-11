@@ -1,0 +1,78 @@
+.cont-2{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	align-content: center;
+    background-color: $seconde-color;
+    .title{
+        margin-top: 10%;
+        &__top
+        {
+            font-size: 40px;
+            span{@extend %span;}
+        }
+
+        &__bottom
+        {
+            width: 100%;
+            margin-left: 3%;
+            margin-top: 5%;
+            margin-bottom: 15%;
+        }
+    }
+
+    .profils
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+    height: 900px;
+    margin: -275px 0 0 67px;
+    
+    
+   &__one
+    {
+       
+      padding: 28px;
+      align-content: center;
+      background-color: $white;
+      margin-right: 5%;
+      text-align: center;
+       
+            
+   }
+
+   &__parag{
+       /* 24px = 1em*/
+       
+       &--prag{
+          
+       }
+
+   }
+
+   &__titles
+   {
+       font-size:18px;
+       span{
+           @extend %span;
+       }
+       
+       &--cach{
+
+          font-size: 0.4em;
+       }  
+
+       &--clash{
+        font-size: 0.9em;
+       }
+   }
+}
+
+}

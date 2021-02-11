@@ -1,0 +1,63 @@
+@import '../sass/scss/variables';
+@import '../sass/scss/profils';
+%mrg{
+    margin-top: 8%;
+    font-size: 20px;
+
+}
+%span{
+    color: $first-color;
+}
+*{
+    margin:0px  ;
+    padding:0px ;
+    
+  }
+  body{
+    .cont-1{
+        span{
+            @extend %span;
+        }
+        .BOX{
+            background-color: $seconde-color;
+            display: flex;
+            justify-content: center;
+            margin: 8%;
+            height: 540px;
+            .BOX1{
+                img{
+               
+                 }
+            }
+            .BOX2{
+                width: 52%;
+                padding: 4%;
+                .titre{
+                    margin-bottom: 4%;
+                }
+                h1{
+                    font-size: 40px;
+                    width: 75%;
+                }
+                .paragraphe, .par1, .par2{
+                    @extend %mrg;
+                }
+                
+                .button{
+                    margin: 15% 0;
+                    width: 30%;
+                    height: 10%;
+                    border-radius: 30px;
+                    border: none;
+                    background-color: $first-color;
+                    color: $white;
+                    font-size: 15px;
+                    
+                }
+            }
+        }
+    }
+  }
+
+
+ 
