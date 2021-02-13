@@ -43,8 +43,9 @@
       padding: 18px;
       align-content: center;
       background-color: $white;
-      margin: 5%;
+      margin: 4%;
       text-align: center;
+      line-height: 28px;
        
             
    }
@@ -86,7 +87,7 @@
         width:60px;
         height:60px;
         border-radius: 50px 50px;
-        bottom:60px;
+        bottom:40px;
         background-color: rgba(119, 119, 119,0.2);
 
         &:before{
