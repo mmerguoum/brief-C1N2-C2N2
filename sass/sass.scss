@@ -1,8 +1,19 @@
 @import '../sass/scss/variables';
 @import '../sass/scss/profils';
+@mixin button {
+    border-radius: 30px;
+    border: none;
+    background-color: $first-color;
+    color: $white;
+    padding: 12px 30px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 4%;
+}
 %mrg{
-    margin-top: 8%;
-    font-size: 20px;
+    margin-top: 3%;
+    font-size: 18px;
+    line-height: 30px;
 
 }
 %span{
@@ -14,50 +25,89 @@
     
   }
   body{
+    font-family: 'Poppins', sans-serif;
     .cont-1{
+        width: 80%;
+        margin:0 auto;
         span{
             @extend %span;
         }
         .BOX{
             background-color: $seconde-color;
             display: flex;
-            justify-content: center;
-            margin: 8%;
-            height: 540px;
+            justify-content: space-around;
+            width: 100%;
+            margin: 0 auto;
+            // height: 540px;
             .BOX1{
+                width: 45%;
                 img{
-               
-                 }
+                    width: 100%;
+                }
+                
             }
             .BOX2{
-                width: 52%;
-                padding: 4%;
+                width: 45%;
+                padding:0 5%;
+                
                 .titre{
-                    margin-bottom: 4%;
+                    margin-top: 5%;
                 }
                 h1{
                     font-size: 40px;
-                    width: 75%;
+                    line-height: 36px;
+                    
                 }
                 .paragraphe, .par1, .par2{
                     @extend %mrg;
                 }
                 
                 .button{
-                    margin: 15% 0;
-                    width: 30%;
-                    height: 10%;
-                    border-radius: 30px;
-                    border: none;
-                    background-color: $first-color;
-                    color: $white;
-                    font-size: 15px;
+                    @include button();
                     
                 }
             }
         }
     }
+
+    @media screen and (max-width: 600px){
+      .cont-1{
+          width: 100%; 
+        .BOX{
+            display: flex;
+            flex-direction: column;
+            .BOX1{
+                width: 100%;
+            }
+            .BOX2{
+                width: 100%;
+                padding: 8px;
+                .button{
+                    margin: 4% 10px;
+                }
+                .paragraphe{
+                    padding: 8px;
+                }
+                h1{
+                    text-align: center;
+                }
+            }
+        }
+        }
+    }
+    .cont-2{ 
+    
+           .title{
+               &__top{
+               text-align: center;
+           }
+           &__bottom{
+               text-align: center;
+           }
+       }
+    }     
   }
 
 
+  
  

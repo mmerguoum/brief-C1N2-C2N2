@@ -6,6 +6,7 @@
 	align-items: center;
 	align-content: center;
     background-color: $seconde-color;
+    margin-top: 8%;
     .title{
         margin-top: 10%;
         &__top
@@ -20,6 +21,7 @@
             margin-left: 3%;
             margin-top: 5%;
             margin-bottom: 15%;
+            opacity: 40%;
         }
     }
 
@@ -32,30 +34,30 @@
 	justify-content: space-around;
 	align-items: center;
 	align-content: center;
-    height: 900px;
+    height: 475px;
     // margin: -275px 0 0 67px;
     
     
    &__one
     {
        
-      padding: 28px;
+      padding: 18px;
       align-content: center;
       background-color: $white;
-      margin-right: 5%;
+      margin: 5%;
       text-align: center;
        
             
    }
 
-   &__parag{
+//    &__parag{
        /* 24px = 1em*/
        
-       &--prag{
+    //    &--prag{
           
-       }
+    //    }
 
-   }
+//    }
 
    &__titles
    {
@@ -92,7 +94,7 @@
         width:60px;
         height:60px;
         border-radius: 50px 50px;
-        bottom:267px;
+        bottom:60px;
         background-color: rgba(119, 119, 119,0.2);
 
         &:before{
