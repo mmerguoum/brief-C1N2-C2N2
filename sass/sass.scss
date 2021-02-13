@@ -7,7 +7,6 @@
     color: $white;
     padding: 12px 30px;
     font-size: 13px;
-    font-weight: 700;
     margin-top: 4%;
 }
 %mrg{
@@ -43,6 +42,7 @@
                 width: 45%;
                 img{
                     width: 100%;
+                    margin: -4px 0;
                 }
                 
             }
@@ -70,7 +70,7 @@
         }
     }
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 400px){
       .cont-1{
           width: 100%; 
         .BOX{
@@ -94,7 +94,8 @@
             }
         }
         }
-    }
+    
+    
     .cont-2{ 
     
            .title{
@@ -105,8 +106,18 @@
                text-align: center;
            }
        }
-    }     
-  }
+       .profils{
+       
+        &--two{
+            display: none;
+         }
+       
+    }
+       
+    } 
+}
+  }    
+  
 
 
   
