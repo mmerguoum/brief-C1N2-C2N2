@@ -14,7 +14,8 @@
       width: 100%;
       margin-top: 5%;
       margin-bottom: 15%;
-      opacity: 40%; }
+      opacity: 40%;
+      text-align: center; }
   .cont-2 .profils {
     width: 100%;
     display: flex;
