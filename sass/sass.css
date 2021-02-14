@@ -1,126 +1,58 @@
-.cont-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  background-color: #f7f7f7;
-  margin-top: 8%; }
-  .cont-2 .title {
-    margin-top: 10%; }
-    .cont-2 .title__top {
-      font-size: 40px; }
-    .cont-2 .title__bottom {
-      width: 100%;
-      margin-top: 5%;
-      margin-bottom: 15%;
-      opacity: 40%;
-      text-align: center; }
-  .cont-2 .profils {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    height: 475px; }
-    .cont-2 .profils__one {
-      padding: 18px;
-      align-content: center;
-      background-color: white;
-      margin: 4%;
-      text-align: center;
-      line-height: 28px; }
-    .cont-2 .profils__titles {
-      font-size: 18px; }
-      .cont-2 .profils__titles--cach {
-        font-size: 0.4em; }
-      .cont-2 .profils__titles--clash {
-        font-size: 0.9em; }
-    .cont-2 .profils__imgcontainer {
-      width: 100%;
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-around;
-      align-items: center;
-      align-content: center;
-      position: relative; }
-    .cont-2 .profils__image {
-      width: 60px;
-      height: 60px;
-      border-radius: 50px 50px;
-      bottom: 40px;
-      background-color: rgba(119, 119, 119, 0.2); }
-      .cont-2 .profils__image:before {
-        content: "60 x 60"; }
+/*
+Error: File to import not found or unreadable: ../sass/scss/variables.
+       Load path: C:/wamp/www/brief-C1N2-C2N2
+        on line 1 of C:/wamp/www/brief-C1N2-C2N2/sass/sass.scss
 
-body .cont-1 .BOX .BOX2 .paragraphe, body .cont-1 .BOX .BOX2 .par1, body .cont-1 .BOX .BOX2 .par2 {
-  margin-top: 3%;
-  font-size: 18px;
-  line-height: 30px; }
+1: @import '../sass/scss/variables';
+2: @import '../sass/scss/profils';
+3: @mixin button {
+4:     border-radius: 30px;
+5:     border: none;
+6:     background-color: $first-color;
 
-.cont-2 .title__top span, .cont-2 .profils__titles span, body .cont-1 span {
-  color: #a4c639; }
-
-* {
-  margin: 0px;
-  padding: 0px; }
-
-body {
-  font-family: 'Poppins', sans-serif; }
-  body .cont-1 {
-    width: 80%;
-    margin: 0 auto; }
-    body .cont-1 .BOX {
-      background-color: #f7f7f7;
-      display: flex;
-      justify-content: space-around;
-      width: 100%;
-      margin: 0 auto; }
-      body .cont-1 .BOX .BOX1 {
-        width: 45%; }
-        body .cont-1 .BOX .BOX1 img {
-          width: 100%;
-          margin: -4px 0; }
-      body .cont-1 .BOX .BOX2 {
-        width: 45%;
-        padding: 0 5%; }
-        body .cont-1 .BOX .BOX2 .titre {
-          margin-top: 5%; }
-        body .cont-1 .BOX .BOX2 h1 {
-          font-size: 40px;
-          line-height: 36px; }
-        body .cont-1 .BOX .BOX2 .button {
-          border-radius: 30px;
-          border: none;
-          background-color: #a4c639;
-          color: white;
-          padding: 12px 30px;
-          font-size: 13px;
-          margin-top: 4%; }
-  @media screen and (max-width: 400px) {
-    body .cont-1 {
-      width: 100%; }
-      body .cont-1 .BOX {
-        display: flex;
-        flex-direction: column; }
-        body .cont-1 .BOX .BOX1 {
-          width: 100%; }
-        body .cont-1 .BOX .BOX2 {
-          width: 100%;
-          padding: 8px; }
-          body .cont-1 .BOX .BOX2 .button {
-            margin: 4% 10px; }
-          body .cont-1 .BOX .BOX2 .paragraphe {
-            padding: 8px; }
-          body .cont-1 .BOX .BOX2 h1 {
-            text-align: center; }
-    body .cont-2 .title__top {
-      text-align: center; }
-    body .cont-2 .title__bottom {
-      text-align: center; }
-    body .cont-2 .profils--two {
-      display: none; } }
-
-/*# sourceMappingURL=sass.css.map */
+Backtrace:
+C:/wamp/www/brief-C1N2-C2N2/sass/sass.scss:1
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/bin/scss:13:in `<top (required)>'
+C:/Ruby27-x64/bin/scss:23:in `load'
+C:/Ruby27-x64/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ../sass/scss/variables.\A        Load path: C:/wamp/www/brief-C1N2-C2N2\A         on line 1 of C:/wamp/www/brief-C1N2-C2N2/sass/sass.scss\A \A 1: @import '../sass/scss/variables';\A 2: @import '../sass/scss/profils';\A 3: @mixin button {\A 4:     border-radius: 30px;\A 5:     border: none;\A 6:     background-color: $first-color;"; }
