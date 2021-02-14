@@ -1,5 +1,6 @@
-@import '../sass/scss/variables';
-@import '../sass/scss/profils';
+@import '../sass/variables';
+@import '../sass/profils';
+
 @mixin button {
     border-radius: 30px;
     border: none;
@@ -22,7 +23,7 @@
     margin:0px  ;
     padding:0px ;
     
-  }
+ }
   body{
     font-family: 'Poppins', sans-serif;
     .cont-1{
@@ -70,54 +71,66 @@
         }
     }
 
-    @media screen and (max-width: 400px){
-      .cont-1{
-          width: 100%; 
-        .BOX{
-            display: flex;
-            flex-direction: column;
-            .BOX1{
-                width: 100%;
-            }
-            .BOX2{
-                width: 100%;
-                padding: 8px;
-                .button{
-                    margin: 4% 10px;
-                }
-                .paragraphe{
-                    padding: 8px;
-                }
-                h1{
-                    text-align: center;
-                }
-            }
-        }
-        }
-    
-    
-    .cont-2{ 
-    
-           .title{
-               &__top{
-               text-align: center;
-           }
-           &__bottom{
-               text-align: center;
-           }
-       }
-       .profils{
-       
-        &--two{
-            display: none;
+} 
+
+@media screen and (max-width: 400px){
+    .cont-1{
+        width: 100%; 
+      .BOX{
+          display: flex;
+          flex-direction: column;
+          .BOX1{
+              width: 100%;
+          }
+          .BOX2{
+              width: 100%;
+              padding: 8px;
+              .button{
+                  margin: 4% 10px;
+              }
+              .paragraphe{
+                  padding: 8px;
+              }
+              h1{
+                  text-align: center;
+              }
+          }
+      }
+      }
+  
+  
+  .cont-2{ 
+  
+         .title{
+             &__top{
+             text-align: center;
          }
-       
-    }
-       
-    } 
+         &__bottom{
+             text-align: center;
+         }
+     }
+     .profils{
+     
+      &--two{
+          display: none;
+       }
+
+       &__image{
+
+        &--test
+        {
+            display: none;
+        }
+       }
+     
+  }
+     
+  } 
+
+ 
+
 }
 
-  }    
   
 
 
